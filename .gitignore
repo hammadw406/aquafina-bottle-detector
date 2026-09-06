@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Data & models — too large / not meant for git history
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+models/*.onnx
+models/*.pt
+runs/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS/editor
+.DS_Store
+.vscode/
+*.swp
+
+# Misc outputs
+inference_result.jpg
